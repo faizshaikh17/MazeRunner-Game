@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vmin;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.maze{
+    display: grid;
+    grid-template-columns: repeat(15, 2.5rem);
+    grid-template-rows: repeat(15, 2.5rem);
+    gap: 3px;
+}
+
+.wall{
+    background: black;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.path{
+    background: white;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.player{
+    background: red;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.destination{
+    background: blue;
+    height: 2.5rem;
+    width: 2.5rem;
+}
